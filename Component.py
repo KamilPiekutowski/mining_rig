@@ -5,10 +5,18 @@ class IComponent(ABC):
 	@abstractmethod
 	def get_info(self):
 		pass
+
 	@abstractmethod
 	def get_stats(self):
 		pass
 
+	@abstractmethod
+	def update_info(self):
+		pass
+
+	@abstractmethod
+	def update_stats(self):
+		pass
 
 class Component(IComponent):
 	m_id = ""      # component name
@@ -18,6 +26,15 @@ class Component(IComponent):
 	@abstractmethod
 	def get_info(self):
 		pass
+
 	@abstractmethod
 	def get_stats(self):
 		pass	
+
+	@abstractmethod
+	def update_info(self):
+		pass
+
+	@abstractmethod
+	def update_stats(self):
+		pass
