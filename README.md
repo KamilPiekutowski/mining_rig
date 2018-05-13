@@ -1,0 +1,1 @@
+##Mining rig module
