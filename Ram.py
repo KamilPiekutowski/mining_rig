@@ -2,7 +2,7 @@
 
 from Component import *
 
-class Gpu(Component):
+class Ram(Component):
 
 	m_isActive = False
 
@@ -13,7 +13,7 @@ class Gpu(Component):
 		return(self.m_stats)
 
 	def update_info(self):
-		return(print("Gpu info updated"))
+		return(print("info updated"))
 
 	def update_stats(self):
-		return(print("Gpu stats updated"))
+		return(print("stats updated"))
